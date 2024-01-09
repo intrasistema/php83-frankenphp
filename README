@@ -1,0 +1,18 @@
+PHP 8.3 + FRANKEN PHP (Replace for Apache or NGINX)
+
+- Intensive tested in GCP Cloud Run
+
+Included these precompiled extensions
+
+mysqli
+zip
+grpc
+intl
+bcmath
+sockets
+protobuf
+imap
+soap
+opcache
+
+- Caddyfile included for custom configurations, this Dockerfile are optimized for Cloud Run and configured without SSL for plain output.
